@@ -234,14 +234,10 @@ def build_html_report(daily_msgs: dict, date_debut: str, date_fin: str) -> str:
     # 1) Bloc titre (centré)
     html_chunks = []
     html_chunks.append(f"""
-    <div style="display:block; margin:20px auto; border:2px double #A32C39; 
-                border-radius:25px; padding:10px; width:70%; text-align:center;">
+    <div style="display:block; margin:20px auto; border:2px double #A32C39; border-radius:25px; padding:10px; width:70%; text-align:center;">
       <h1 style="font-size:24px; color:#A32C39; margin:5px 0;">
-        <img src="https://i0.wp.com/femmesdedroit.be/wp-content/uploads/2024/11/Logo-FfJ.png?w=499&ssl=1"
-             alt="Coalition Feminist For Justice"
-             width="70"
-             style="vertical-align:middle; margin-right:10px; border-radius:50%;" />
-        Rapport quotidien du Discord - Coalition Feminist For Justice
+        <img src="https://i0.wp.com/femmesdedroit.be/wp-content/uploads/2024/11/Logo-FfJ.png?w=499&ssl=1" alt="Coalition Feminist For Justice" titre="Discord de la Coalition FFJ" width="70" style="vertical-align:middle; margin-right:10px; border-radius:50%;" />
+        Rapport quotidien du  <a href="https://discord.gg/coalitionfeministforjustice" style="color:#31b9cd; text-decoration:bold;">Discord - Coalition Feminist For Justice</a>
       </h1>
     </div>
     """)
