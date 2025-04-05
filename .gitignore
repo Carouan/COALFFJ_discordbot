@@ -1,1 +1,6 @@
 bot/.env
+*.txt
+*.mmd
+*.svg
+test/*
+
