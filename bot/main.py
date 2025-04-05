@@ -433,10 +433,17 @@ def build_html_report(daily_msgs: dict, date_debut: str, date_fin: str) -> str:
   <!-- Dernière ligne : lien de désabonnement, infos -->
   <hr style="border:none; border-top:1px solid #CCC; margin:10px 0;" />
   <p style="font-size:14px; color:#777; margin:5px;">
-    <a href="http://votre-lien-de-desabonnement" style="color:#A32C39; text-decoration:none;">Se désabonner</a> - ----- - <strong>Contact :</strong>  secretariat@femmesdedroit.be
+    <a href="http://votre-lien-de-desabonnement" style="color:#A32C39; text-decoration:none;">Se désabonner</a> - ----- - <a href="mailto:secretariat@femmesdedroit.be?&subject=Petit%20soucis%20avec%20le%20bot%20Discord%20de%20la%20coalition%20FFJ&body=Problème20concernant%20le%20bot%20Discord%20de%20la%20coalition%20FFJ" target="_top"><strong>Contact :</strong>secretariat@femmesdedroit.be</a>
   </p>
 </div>
     """)
+
+
+
+<a href="mailto:secretariat@femmesdedroit.be?&subject=Petit%20soucis%20avec%20le%20bot%20Discord%20de%20la%20coalition%20FFJ&body=Problème20concernant%20le%20bot%20Discord%20de%20la%20coalition%20FFJ" target="_top">
+
+
+
 
     final_html = (
         "<html>"
